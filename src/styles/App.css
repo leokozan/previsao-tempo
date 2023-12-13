@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  height: 100vh;
 }
 
 .App-logo {
@@ -35,4 +36,22 @@
   to {
     transform: rotate(360deg);
   }
+}
+.card {
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.container-tempo{
+  height: 90%;
+}
+
+.header{
+ height: 5%;
+ margin-bottom: 30px;
+}
+
+.footer{
+  height: 5%;
+  margin-top: 30px;
 }
